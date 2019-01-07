@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Mathenge Richard">
+    <title>Meetups </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100, 200,300,400,500,600,700,
+    800,900|Coromorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesignup.css" type="text/css" media="screen"  />
+    <link rel="icon" href="./images/favicon.ico" type="image/gif" sizes="16x16">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Main Header-->
+    <header>
+           <div class="container-h">
+               <div id="menu">
+                   <h2> <img src="./images/logo.png" alt="logo" width="40" height="35"> M<span class="highlight ">eetups</span></h2>
+                    
+               </div>
+               <nav>
+                   <ul>
+                       <li><a href="index.html"> Home </a></li>
+                       <li><a href="meetups.html"> Meetups </a></li>
+                   </ul>
+               </nav>
+           </div>
+       </header>
+ <div class="container">
+  <form action="/meetups.html">
+    <h1>Create meetup</h1>
+    <hr>
+    <label class="col-75" for="uname"><b>Title</b></label>
+    <textarea name="message" id="" placeholder="Event description" cols="60" rows="7" required></textarea>
+
+
+    <label class="col-75" for="uname"><b>Venue</b></label>
+    <input class="col-25" type="text" placeholder="Location..." name="venue" required >
+
+    <label class="col-75" for="uname"><b>Organizer</b></label>
+    <input class="col-25" type="text" placeholder="Organized by..." name="host" required >
+
+    <label class="col-75" for="uname"><b>Date</b></label>
+    <input class="col-25" type="text" placeholder="date..." name="date" required >
+
+    
+        
+    <!-- <button type="submit"><a href="home.html">Create meetup</a></button> -->
+    <a href="meetups.html"><button>Create Meetup</button></a>
+   
+  </form>
+</div>
+
+</body>
+<footer>
+        <p> The Meetups-Questioner Copyright &copy; 2019 </p>
+    </footer>
+</html>
